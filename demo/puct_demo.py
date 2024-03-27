@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.axes_grid1 import make_axes_locatable
 from pmcts.planners import ParetoUCT
-from demo.pgm2numpy import read_pgm
+from pgm2numpy import read_pgm
 
 plt.rcParams["image.origin"] = "lower"
 plt.rcParams["image.cmap"] = "gray_r"

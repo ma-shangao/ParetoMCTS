@@ -13,5 +13,5 @@ def xy_to_ij(xy, extent, max_row, max_col):
     i[i < 0] = 0
     i[i > max_row] = max_row
     # stack
-    ij = np.vstack([i.ravel(), j.ravel()]).T.astype(np.int)
+    ij = np.vstack([i.ravel(), j.ravel()]).T.astype(int)
     return ij
