@@ -30,7 +30,7 @@ reward_map = rv1.pdf(pos) + rv2.pdf(pos) + rv3.pdf(pos)
 reward_map = (reward_map - reward_map.min()) / reward_map.max()
 reward_map = reward_map.astype(np.float32)
 
-occupancy_grid_map = np.zeros_like(reward_map).astype(np.bool)
+occupancy_grid_map = np.zeros_like(reward_map).astype(bool)
 
 # Planning
 angle_range = [-0.1, 0.1]  # Steering angle range
