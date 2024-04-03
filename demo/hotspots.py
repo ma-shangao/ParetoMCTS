@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.stats import multivariate_normal
 from pmcts.planners import UCT
-from demo.pgm2numpy import read_pgm
+from pgm2numpy import read_pgm
 
 plt.rcParams["image.origin"] = "lower"
 plt.rcParams["image.cmap"] = "gray_r"
